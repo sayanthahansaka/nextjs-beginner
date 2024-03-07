@@ -7,3 +7,14 @@
 h1{
   color: aqua;
 }
+.row{
+  padding: 1em;
+  border: 1px solid red;
+  background-color: greenyellow;
+}
+.weapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
