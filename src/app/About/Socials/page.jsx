@@ -11,4 +11,6 @@ const page = () => {
 export default page
 // Routing
 // Nested Routing
-// Grouping Pages
+// Grouping Pages 
+
+// Dynamic Routes, Nested Dynamic Routes, Catch All Routes
