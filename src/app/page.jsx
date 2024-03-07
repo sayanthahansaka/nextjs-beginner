@@ -15,7 +15,10 @@ export default function Home() {
       <li><Link href="/Services">Services</Link></li>
       <li><Link href="https://nextjs.org/" target="_blank" id={styles.siteLink}>Nextjs</Link></li>
     </ul>
+    <hr />
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quis est dolorem consectetur eos? Aliquid expedita delectus, illum perferendis veritatis nobis consequuntur minus itaque molestias neque similique voluptates voluptatum magnam.</p>
     </>
+    
     
   );
 }
