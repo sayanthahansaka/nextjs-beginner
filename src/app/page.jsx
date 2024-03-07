@@ -7,13 +7,13 @@ export default function Home() {
     <>
     <h1>Home Page</h1>
     <hr />
-    <ul>
-      <li><Link href="/">Home</Link></li>
+    <ul className="body">
+      <li><Link href="/" className={styles.link}>Home</Link></li>
       <li><Link href="/About">About</Link></li>
       <li><Link href="/Login">Login</Link></li>
       <li><Link href="/Produts">Produts</Link></li>
       <li><Link href="/Services">Services</Link></li>
-      <li><Link href="https://nextjs.org/" target="_blank">Nextjs</Link></li>
+      <li><Link href="https://nextjs.org/" target="_blank" id={styles.siteLink}>Nextjs</Link></li>
     </ul>
     </>
     
