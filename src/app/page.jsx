@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+// import { Image } from "next/image";
+import img from "../../public/24525.jpg"
 
 export default function Home() {
   return (
@@ -17,8 +19,14 @@ export default function Home() {
     </ul>
     <hr />
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias quis est dolorem consectetur eos? Aliquid expedita delectus, illum perferendis veritatis nobis consequuntur minus itaque molestias neque similique voluptates voluptatum magnam.</p>
+
+    <Image
+    src={"https://static.vecteezy.com/system/resources/thumbnails/033/662/051/small_2x/cartoon-lofi-young-manga-style-girl-while-listening-to-music-in-the-rain-ai-generative-photo.jpg"}
+    style={{width:"100%", height:"100%", objectFit:"cover"}}
+    width={1000}
+    height={1000}
+    />
+
     </>
-    
-    
   );
 }
