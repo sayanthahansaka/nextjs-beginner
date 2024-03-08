@@ -26,6 +26,12 @@ export default function Home() {
     width={1000}
     height={1000}
     />
+    <Image
+    src={"https://www.brides.com/thmb/UwvnIhuGPsGVVinR7_x5ZkMiZIA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/where-is-sri-lanka-583230783df78c6f6a660e96.jpg"}
+    style={{width:"100%", height:"100%", objectFit:"cover"}}
+    width={1000}
+    height={1000}
+    />
 
     </>
   );
